@@ -56,4 +56,24 @@ Optimised for:
 
 ## How to Run
 
-1. Install dependencies:
+1. Install dependencies: pip install -r requirements.txt
+
+2. Download dataset from Kaggle
+
+3. Place data inside:  data/
+train.parquet
+test.parquet
+
+
+4. Run the code 
+---
+
+## Key Learnings
+- Threshold tuning significantly improves F1-score
+- Time-aware validation prevents leakage
+- Proper imbalance handling is critical in anomaly detection
+
+---
+
+Author: Saurabh Maurya  
+MSc Computer Science – University of Greenwich
